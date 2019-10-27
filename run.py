@@ -5,10 +5,7 @@ model = build_model(configs.squad.squad_bert, download=True, load_trained=True)
 import pyrebase
 
 config = {
-    "apiKey": "AIzaSyDpDm_HPVsWN0RPl12U8NDgK1-VnQJzXtg",
-    "authDomain": "wbdb-44898.firebaseapp.com",
-    "databaseURL": "https://wbdb-44898.firebaseio.com",
-    "storageBucket": "wbdb-44898.appspot.com"
+    # put yours here
 } 
 
 firebase = pyrebase.initialize_app(config)
